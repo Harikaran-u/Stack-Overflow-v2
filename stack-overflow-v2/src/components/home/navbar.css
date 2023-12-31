@@ -1,0 +1,71 @@
+.nav-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+}
+.menu-search-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+.custom-btn {
+  background: transparent;
+  color: #908888;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  width: 100%;
+}
+.search-input {
+  outline: none;
+  background: transparent;
+  border: none;
+  margin-left: 6px;
+  font-size: 14px;
+  width: 100%;
+  padding: 4px;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+.menu-text-btn {
+  color: #908888;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.menu-icon {
+  margin-right: 4px;
+  font-size: 18px;
+}
+.profile-menu-container {
+  display: flex;
+  align-items: center;
+}
+.user-profile-logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.menu-down-btn {
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  color: #908888;
+}

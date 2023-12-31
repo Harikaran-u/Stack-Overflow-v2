@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-main-container {
+  width: 240px;
+  padding-right: none;
+  background-color: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-logo {
+  width: 80%;
+  height: 60px;
+}
+
+.all-tabs-container {
+  padding: 6px;
+}
+
+.tab-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 12px;
+  width: 180px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.tab-name {
+  font-size: 14px;
+  color: #c1c1c1;
+}
+.tab-icon {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.selected-tab-item {
+  border-left: 4px solid #ed7d31;
+}
+.selected-tab-name {
+  color: #000000;
+  font-weight: 600;
+}
+.selected-tab-icon {
+  color: #ed7d31;
+}
+.sub-text {
+  font-size: 10px;
+  font-weight: bold;
+  color: #ed7d31;
+  vertical-align: super;
+  margin-left: 4px;
+}
+
+.side-bar-toggle-btn {
+  outline: none;
+  height: 24px;
+  width: 30px;
+  padding: 4px;
+  background-color: transparent;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border: 1px solid #c1c1c1;
+  border-right: 0;
+  color: #000000;
+  cursor: pointer;
+  align-self: flex-end;
+}
