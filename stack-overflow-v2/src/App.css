@@ -1,7 +1,8 @@
 :root {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-
-.app-main-container {
+.top-container {
   display: flex;
+  padding: 0;
+  border-bottom: 1px solid #cfcbcb;
 }

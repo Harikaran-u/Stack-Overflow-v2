@@ -1,4 +1,6 @@
 .home-main-container {
-  padding: 10px;
   width: 100%;
+}
+.display-info-container {
+  display: flex;
 }

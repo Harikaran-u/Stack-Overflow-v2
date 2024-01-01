@@ -1,0 +1,131 @@
+.right-bar-main-container {
+  width: 30%;
+  background-color: #f9f9f9;
+  padding-right: 0;
+}
+.jobs-header-container {
+  padding: 50px;
+  position: relative;
+}
+/* .jobs-header-container::before {
+  content: "jobs";
+  color: #cccccc46;
+  font-size: 100px;
+} */
+.jobs-head {
+  position: absolute;
+  top: 100px;
+  left: 52px;
+  margin: 0;
+  color: #5e5d5d;
+  font-size: 20px;
+}
+.background-text {
+  font-size: 100px;
+  color: #8f8b8b16;
+  display: inline;
+}
+/* .jobs-head {
+  color: #8f8b8b;
+  font-size: 16px;
+} */
+.job-card-container {
+  border: none;
+  border-bottom: 1px solid #333;
+  background-color: transparent;
+}
+.job-title {
+  font-size: 14px;
+  color: #42c2ff;
+}
+.job-company-name {
+  font-size: 12px;
+  color: #8f8b8b;
+}
+.job-mode-container {
+  display: flex;
+  align-items: center;
+}
+.salary-info {
+  color: #28df99;
+  font-size: 10px;
+}
+.job-location {
+  font-size: 10px;
+  color: #8f8b8b;
+  margin-right: 6px;
+}
+.job-mode {
+  font-size: 10px;
+  color: #8f8b8b;
+  margin-right: 6px;
+}
+.skills-container {
+  display: flex;
+  align-items: center;
+}
+.skills-tab {
+  border: 1px solid #8f8b8b;
+  border-radius: 20px;
+  padding: 4px;
+  font-size: 10px;
+  color: #8f8b8b;
+  margin-right: 6px;
+  margin-bottom: 20px;
+  min-width: 50px;
+  text-align: center;
+}
+.view-more-jobs-btn {
+  color: #42c2ff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 12px;
+  background: transparent;
+  border: none;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.network-header-container {
+  padding: 50px;
+  position: relative;
+}
+/* .network-header-container::before {
+  content: "hot";
+  color: #cccccc46;
+  font-size: 100px;
+} */
+.network-head {
+  position: absolute;
+  top: 100px;
+  left: 52px;
+  margin: 0;
+  color: #5e5d5d;
+  font-size: 20px;
+}
+
+.network-qns-container {
+  list-style: none;
+  margin-top: 20px;
+}
+.qn-icon {
+  color: #ff884b;
+  margin-right: 16px;
+}
+.network-qn-link {
+  border-bottom: 1px solid #c2bfbf;
+  padding-bottom: 10px;
+}
+.network-qn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #42c2ff;
+  margin-top: 16px;
+  display: flex;
+  cursor: pointer;
+}
+.network-btn {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 12px;
+}
